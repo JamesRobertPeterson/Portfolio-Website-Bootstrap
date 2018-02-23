@@ -85,6 +85,19 @@ hr {
     height: inherit;
 }
 
+
 .row {
     margin-top: 20px;
+}
+
+.row h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.logoimage {
+    display: block;
+    margin: auto;
+    height: 90px;
+    width: auto;
 }
