@@ -118,6 +118,7 @@ hr {
 
 .row {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .row h3 {
@@ -158,4 +159,14 @@ input[type=submit] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: #45a049;
+}
+
+.container h5 {
+    font-family: "Avenir Medium", Avenir, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.footer {
+    background-color: lightgray;
 }
