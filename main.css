@@ -24,10 +24,24 @@ html {
     color: lightgray;
     padding: 10px;
     border:7px solid lightgray;
-    text-align: center;
-    
-    
-    
+    text-align: center;   
+}
+
+.myHeader {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.myHeader .row {
+    margin: 0px;
+}
+
+.myHeader .col-md-4 {
+    padding: 0px;
+}
+
+.myHeader .col-md-8 {
+    padding: 0px;
 }
 
 .nav {
@@ -70,6 +84,23 @@ hr {
     vertical-align: top;
 }
 
+.aboutMe {
+    background: #4fbfa8;
+    padding: 10px;
+}
+
+.aboutMe h1 {
+    font-family: "Avenir Medium", Avenir, sans-serif;
+    color: white;
+   
+}
+
+.aboutMe p {
+    font-family: "Avenir Medium", Avenir, sans-serif;
+    color: white;
+    
+}
+
 .jumbotron {
 	background: rgb(216, 221, 221);
 	color: white;
@@ -86,16 +117,8 @@ hr {
   background-color: #ffffff;
   border-color: #4fbfa8;
   font-weight: bold;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.em;
     
-}
-
-.btn-outline {
-  color: #4fbfa8;
-  background-color: #ffffff;
-  border-color: #4fbfa8;
-  font-weight: bold;
-  border-radius: 0;
 }
 
 .btn-outline:hover,
@@ -104,7 +127,7 @@ hr {
 .btn-outline.active {
   background: #4fbfa8;
   color: #ffffff;
-  border-color: #4fbfa8;
+  border-color: #ffffff;
   
 }
 
@@ -161,12 +184,37 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.container h5 {
-    font-family: "Avenir Medium", Avenir, sans-serif;
-    font-size: 15px;
-    color: white;
+footer {
+    background-color: #4fbfa8;
+    padding: 5px;
 }
 
-.footer {
-    background-color: lightgray;
+footer p {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;  
+}
+
+.myFooter .row {
+    margin: 0px;
+}
+
+.myFooter .col-md-10 {
+    padding: 0px;
+}
+
+.myFooter .col-md-2 {
+    padding: 0px;
+}
+
+.container img:hover {
+	-webkit-filter: grayscale (100%) blur(2px);
+	filter: grayscale(100%) blur(2px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.container img {
+	-webkit-filter: grayscale (0) blur(0);
+	filter: grayscale(0) blur(0);
 }
