@@ -12,8 +12,6 @@ html {
     width: 100%;
     display: inline-block;
     margin-top: 40px;
-    
-    
 }
 
 .header {
@@ -24,12 +22,13 @@ html {
     color: lightgray;
     padding: 10px;
     border:7px solid lightgray;
-    text-align: center;   
+    text-align: center;  
 }
 
 .myHeader {
     background-color: white;
     padding-top: 20px;
+    
 }
 
 .myHeader .row {
@@ -151,12 +150,6 @@ hr {
     font-family: "Avenir Medium", Avenir, sans-serif;
 }
 
-.logoimage {
-    display: block;
-    margin: auto;
-    height: 90px;
-    width: auto;
-}
 
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -217,4 +210,10 @@ footer p {
 .container img {
 	-webkit-filter: grayscale (0) blur(0);
 	filter: grayscale(0) blur(0);
+}
+
+
+.logo {
+    display: block;
+    margin: auto;
 }
