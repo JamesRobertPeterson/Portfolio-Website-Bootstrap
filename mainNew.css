@@ -3,9 +3,11 @@ html {
     background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
 }
 
-.page {
-    margin-left: 0px;
-    margin-right: 0px;
+.body {
+    max-width: 1080px;
+    margin: 0 auto;
+    float: none;
+    box-shadow: 2px 0px 2px lightgray, -2px 0px 2px lightgray;
 }
 
 .top {
@@ -14,34 +16,24 @@ html {
     margin-top: 40px;
 }
 
-.header {
-    width: 320px;
-    float: left;
-    font-size: 38px;
-    font-family: "Avenir Medium", Avenir, sans-serif; 
-    color: lightgray;
-    padding: 10px;
-    border:7px solid lightgray;
-    text-align: center;  
-}
 
-.myHeader {
+#myHeader {
     background-color: white;
-    padding-top: 20px;
-    
+    height: 110px;
 }
 
-.myHeader .row {
-    margin: 0px;
+#myHeader .row {
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
-.myHeader .col-md-4 {
-    padding: 0px;
+#logo {
+    height: 60px;
+    width: auto;
 }
 
-.myHeader .col-md-8 {
-    padding: 0px;
-}
 
 #navRight {
     color: lightgray;
@@ -49,6 +41,7 @@ html {
     margin-top: 10px;
     margin-bottom: 10px;
     float:right ;
+    padding-right: 35px;
 }
 
 #navLeft {
@@ -57,6 +50,7 @@ html {
     margin-top: 10px;
     margin-bottom: 10px;
     float:left ;
+    padding-left: 35px;
 }
 
 .nav li {
@@ -69,17 +63,21 @@ html {
 }
 
 
-.namedesc {
-    width: 320px;
-    text-align: center;
-    
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
 }
 
-.descname {
-    font-family: "Avenir Medium", Avenir, sans-serif;
-    font-size: 15px;
-    color: lightgray;
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
 }
+
+
 
 hr {
     display:block;
@@ -94,6 +92,7 @@ hr {
 
 .aboutMe {
     background: #4fbfa8;
+    height: 365px;
     padding: 10px;
 }
 
@@ -109,16 +108,8 @@ hr {
     
 }
 
-.jumbotron {
-	background: rgb(216, 221, 221);
-	color: white;
-	text-align: left;
-}
-.jumbotron p {
-	color: white;
-	font-size: 26px;
-    font-family: "Avenir Medium", Avenir, sans-serif;
-}
+
+
 
 .btn-outline {
   color: #4fbfa8;
@@ -147,17 +138,9 @@ hr {
 }
 
 
-.row {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
-.row h3 {
-    text-align: left;
-    padding-top: 10px;
-    font-size: 26px;
-    font-family: "Avenir Medium", Avenir, sans-serif;
-}
+
+
 
 
 input[type=text], select, textarea {
