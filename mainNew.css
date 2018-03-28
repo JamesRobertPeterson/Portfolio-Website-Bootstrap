@@ -28,6 +28,9 @@ html {
     margin: auto;
 }
 
+
+
+
 #logo {
     height: 50px;
     width: auto;
@@ -35,7 +38,6 @@ html {
 
 
 #navRight {
-    color: lightgray;
     width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -44,7 +46,6 @@ html {
 }
 
 #navLeft {
-    color: lightgray;
     width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -52,10 +53,12 @@ html {
     padding-left: 35px;
 }
 
+
+
+
 .nav li {
     font-family: "Futura Medium", Futura, sans-serif;
     font-size: 15px;
-    color: gray;
     padding: 13.5px;
     margin: 0px;
     
@@ -132,17 +135,27 @@ hr {
 .Title {
     background: white;
     height: 200px;
-    align-items: center
+    align-items: center;
+    text-decoration: underline;
 }
 
 
+.WorkGallery {
+    margin-left: 75px;
+    margin-right: 75px;
+}
 
 .workimage {
     width: inherit;
     height: inherit;
 }
 
-
+.LiveGallery {
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 
 
